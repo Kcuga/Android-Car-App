@@ -1,0 +1,49 @@
+Region:
+	Europe
+	Asia
+	America
+	Australia
+	Africa
+
+Europe:
+	Belgium: Gillet
+	Croatia: Rimac
+	Czech Republic: Skoda / Tatra
+	France: Aixam / Alpine / Bugatti/ Citroen / DS Automobiles / Peugeot / Renault 
+	Germany: Audi / BMW / Merc / Opel / Porsche / VW / 9FF / Alpina / Brabus / Gumpert / Isdera / Ruf / Maybach / Wiesmann / Wartburg / Zundapp
+	Italy: Abarth / AR / Ferrari / Fiat / Lambo / Lancia / Maserati / Pagani / Pininfarina / De Tomaso / ISO / Italdesign / Autobianchi / Cizeta
+	Monaco: Venturi
+	Netherlands: Donkervoort / Spyker
+	Poland: Polski Fiat
+	Romania: ARO / Dacia / Oltcit
+	Russia: Moskvitch / GAZ / Marussia / UAZ / Lada / ZIL
+	Serbia: Yugo
+	Spain: Cupra / Spania GTA / SEAT
+	Sweden: Koenigsegg / Polestar / Volvo / Saab
+	UK: AM / Bentley / Jaguar / LR / Lotus / McLaren / Mini / RR /Vauxhall / AC / Ariel / BAC / Caterham / Ginetta / Lister / Morgan / Noble / Radical / TVR / Ultima / Ascari / Austin / Austin-Healey /Jensen / Lagonda / Marcos / MG / Morris / Peel / Rover / Sunbeam-Talbot / Triumph
+
+Asia:
+	China: BAIC / Brilliance / BYD / Changan / Chery / Dongfeng / FAW / Foton / Geely / Great Wall / Hafei / JAC / Lifan / Qoros / SAIC / Zoyte / ZX
+	India: Mahindra / Tata / Hindustan / Maruti Suzuki
+	Indonesia: Esemka
+	Iran: Iran Khodro / Saipa
+	Japan: Acura / Daihatsu / Datsun / Honda / Hino / Indiniti / Isuzu / Lexus / Mazda / Mitsubishi / Mitsuoka / Nissan / Subaru / Suzuki / Toyota
+	Malaysia: Bufori / Perodua / Proton 
+	North Korea: Pyeonghwa
+	South Korea: Hyundai / Kia / Reanult Samsung / Ssangyong / Daewoo
+	Taiwan: Luxgen
+	UAE: W Motors
+
+America:
+	USA: Buick / Cadillac / Chevrolet / GMC / Chrysler / Dodge / Jeep / RAM / Ford / Lincoln / Callaway / DMC / Fisker / Hennessey / Karma / Lucid / Panoz /Rivian / Rossion / Mosler / Saleen / Shelby / SSC / Tesla / Vector / American Motors / Duesenberg / Eagle / Hudson/ Hummer / International / Mercury / Nash / Oldsmobile / Packard / Plymouth / Pontiac / Studebaker / Willys
+	Mexico: Mastretta / VUHL
+	Brazil: Puma / Troller
+
+Australia:
+	Australia: Holden / FPV
+
+Africa: 
+	Ghana: Kantanka
+	Morocco: Laraki
+	Tunisia: Wallys
+	
