@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Car Collector</string>
     <string name="choose_the_region">Choose the region</string>
+    <string name="choose_your_region">Choose your region</string>
+    <string name="europe">Europe</string>
+    <string name="asia">Asia</string>
+    <string name="america">America</string>
+    <string name="australia">Australia</string>
+    <string name="africa">Africa</string>
+    <string name="croatia">Croatia</string>
+    <string name="czech_republic">Czech Republic</string>
 </resources>

@@ -13,10 +13,10 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="61dp"
+        android:layout_marginStart="70dp"
         android:layout_marginTop="70dp"
-        android:layout_marginEnd="61dp"
-        android:text=" Choose your region"
+        android:layout_marginEnd="60dp"
+        android:text="@string/choose_your_region"
         android:textSize="32sp" />
 
     <Button
@@ -29,7 +29,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="50dp"
         android:layout_marginEnd="100dp"
-        android:text="Europe" />
+        android:text="@string/europe" />
 
     <Button
         android:id="@+id/asiaButton"
@@ -41,7 +41,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="150dp"
         android:layout_marginEnd="100dp"
-        android:text="Asia" />
+        android:text="@string/asia" />
 
     <Button
         android:id="@+id/americaButton"
@@ -53,7 +53,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="250dp"
         android:layout_marginEnd="100dp"
-        android:text="America" />
+        android:text="@string/america" />
 
     <Button
         android:id="@+id/australiaButton"
@@ -65,7 +65,7 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="350dp"
         android:layout_marginEnd="100dp"
-        android:text="Australia" />
+        android:text="@string/australia" />
 
     <Button
         android:id="@+id/africaButton"
@@ -77,5 +77,5 @@
         android:layout_marginStart="100dp"
         android:layout_marginTop="450dp"
         android:layout_marginEnd="100dp"
-        android:text="Africa" />
+        android:text="@string/africa" />
 </RelativeLayout>
