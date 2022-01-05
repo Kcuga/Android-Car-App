@@ -29,6 +29,19 @@
             android:orientation="horizontal">
 
             <ImageButton
+                android:id="@+id/austriaButton"
+                android:layout_width="wrap_content"
+                android:layout_height="105dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/austria_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
                 android:id="@+id/belgiumButton"
                 android:layout_width="wrap_content"
                 android:layout_height="105dp"
@@ -40,19 +53,6 @@
                 android:background="@drawable/belgium_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
-
-            <ImageButton
-                android:id="@+id/bulgariaButton"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginStart="50dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginEnd="50dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"
-                android:background="@drawable/bulgaria_flag_button_square_xs"
-                android:contextClickable="true"
-                tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
 
         <LinearLayout
@@ -61,20 +61,20 @@
             android:orientation="horizontal">
 
             <TextView
+                android:id="@+id/austriaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Austria" />
+
+            <TextView
                 android:id="@+id/belgiumText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Belgium" />
-
-            <TextView
-                android:id="@+id/bulgariaText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Bulgaria" />
         </LinearLayout>
 
         <LinearLayout
@@ -137,7 +137,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/franceButton"
+                android:id="@+id/denmarkButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
@@ -145,12 +145,12 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/france_flag_button_square_xs"
+                android:background="@drawable/denmark_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
-                android:id="@+id/germanyButton"
+                android:id="@+id/franceButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
@@ -158,7 +158,7 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/germany_flag_button_square_xs"
+                android:background="@drawable/france_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
@@ -169,20 +169,74 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/franceText"
+                android:id="@+id/denmarkText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="France" />
+                android:text="Denmark" />
 
             <TextView
-                android:id="@+id/germanyText"
+                android:id="@+id/franceText"
                 android:layout_width="53dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
+                android:text="France" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/germanyButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/germany_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/greeceButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/greece_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/germanyText"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
                 android:text="Germany" />
+
+            <TextView
+                android:id="@+id/greeceText"
+                android:layout_width="53dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Greece" />
         </LinearLayout>
 
         <LinearLayout
@@ -204,7 +258,7 @@
                 tools:ignore="SpeakableTextPresentCheck" />
 
             <ImageButton
-                android:id="@+id/monacoButton"
+                android:id="@+id/latviaButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
@@ -212,7 +266,7 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/monaco_flag_button_square_xs"
+                android:background="@drawable/latvia_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
@@ -224,19 +278,19 @@
 
             <TextView
                 android:id="@+id/italyText"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Italy" />
 
             <TextView
-                android:id="@+id/monacoText"
-                android:layout_width="53dp"
+                android:id="@+id/latviaText"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:text="Monaco" />
+                android:text="Latvia" />
         </LinearLayout>
 
         <LinearLayout
@@ -245,9 +299,22 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/netherlandsButton"
+                android:id="@+id/monacoButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/monaco_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/netherlandsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
                 android:layout_marginEnd="50dp"
@@ -256,11 +323,39 @@
                 android:background="@drawable/netherlands_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/monacoText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Monaco" />
+
+            <TextView
+                android:id="@+id/neherlandsText"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Netherlands" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/polandButton"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
                 android:layout_marginEnd="50dp"
@@ -269,39 +364,11 @@
                 android:background="@drawable/poland_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/netherlandsText"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Netherlands" />
-
-            <TextView
-                android:id="@+id/polandText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Poland" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="149dp"
-            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/romaniaButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
                 android:layout_marginEnd="50dp"
@@ -310,11 +377,39 @@
                 android:background="@drawable/romania_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/polandText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Poland" />
+
+            <TextView
+                android:id="@+id/romaniaText"
+                android:layout_width="35dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Romania" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/russiaButton"
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
                 android:layout_marginEnd="50dp"
@@ -323,39 +418,11 @@
                 android:background="@drawable/russia_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/romaniaText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Romania" />
-
-            <TextView
-                android:id="@+id/russiaText"
-                android:layout_width="53dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Russia" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="149dp"
-            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/serbiaButton"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
                 android:layout_marginEnd="50dp"
@@ -364,9 +431,50 @@
                 android:background="@drawable/serbia_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/russiaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Russia" />
+
+            <TextView
+                android:id="@+id/serbiaText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Serbia" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/spainButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/spain_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/swedenButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
@@ -374,7 +482,7 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/spain_flag_button_square_xs"
+                android:background="@drawable/sweden_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
         </LinearLayout>
@@ -385,20 +493,20 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/serbiText"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Serbia" />
-
-            <TextView
                 android:id="@+id/spainText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="Spain" />
+
+            <TextView
+                android:id="@+id/swedenText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Sweden" />
         </LinearLayout>
 
         <LinearLayout
@@ -407,7 +515,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/swedenButton"
+                android:id="@+id/switzerlandButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="50dp"
@@ -415,9 +523,50 @@
                 android:layout_marginEnd="50dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
-                android:background="@drawable/sweden_flag_button_square_xs"
+                android:background="@drawable/switzerland_flag_button_square_xs"
                 android:contextClickable="true"
                 tools:ignore="SpeakableTextPresentCheck" />
+
+            <ImageButton
+                android:id="@+id/ukraineButton"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="31dp"
+                android:layout_marginEnd="50dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/ukraine_flag_button_square_xs"
+                android:contextClickable="true"
+                tools:ignore="SpeakableTextPresentCheck" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/switzerlandText"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Switzerland" />
+
+            <TextView
+                android:id="@+id/ukraineText"
+                android:layout_width="61dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Ukraine" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="149dp"
+            android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/ukButton"
@@ -425,7 +574,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="50dp"
                 android:layout_marginTop="31dp"
-                android:layout_marginEnd="50dp"
+                android:layout_marginEnd="255dp"
                 android:layout_marginBottom="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/united_kingdom_flag_button_square_xs"
@@ -439,17 +588,10 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/swedenText"
-                android:layout_width="wrap_content"
+                android:id="@+id/ukText"
+                android:layout_width="208dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:text="Sweden" />
-
-            <TextView
-                android:id="@+id/uxText"
-                android:layout_width="53dp"
-                android:layout_height="wrap_content"
+                android:layout_marginEnd="205dp"
                 android:layout_weight="1"
                 android:gravity="center"
                 android:text="United Kingdom" />

@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CarCollector">
         <activity
+            android:name=".OceaniaMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AmericaMenu"
+            android:exported="false" />
+        <activity
+            android:name=".AsiaMenu"
+            android:exported="false" />
+        <activity
             android:name=".EuropeMenu"
             android:exported="false" />
         <activity
